@@ -37,7 +37,7 @@ deps = ['webtest',
         'jinja2',
         'pyOpenSSL',
         'colorlog',
-        'markdown',  # rendering stuff
+        'markdown>=2.6',  # rendering stuff #modified to support return config on slack
         'ansi',
         'Pygments>=2.0.2',
         'pygments-markdown-lexer>=0.1.0.dev39',  # sytax coloring to debug md
